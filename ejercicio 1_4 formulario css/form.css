@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-self: center;
+    align-items: center;
+    font-family: "Source Code Pro";
+    background-color: black;
+}
+
+.encabezado {
+    background-color: whitesmoke;
+    margin-top: 100;
+    width: 400;
+    box-shadow: 0 0 100px 2px rgba(130, 221, 10, 0.397),
+                inset 0 0 10px 2px rgba(88, 88, 87, 0.781);
+
+    border-style: groove;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.banner {
+    height: 60;
+    background-image: url(/imagenes/_b4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 50;
+}
+
+h1 {
+    font-size: 20;
+    color: black;
+    height: 40;
+    padding: 2px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    align-self: center;
+    /* -webkit-text-stroke: 2px rgba(255, 166, 0, 0.726); */
+}
+
+/* .cuestionario {
+    display: flex;
+    justify-content: center;
+} */
+
+.box_cuest {
+    color: black;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 10px 20px 25px;
+    /* text-align: center;
+    align-self: center; */
+}
+ label {
+    font-size: 15;
+    font-weight: 400;
+ }
+.check_a {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 12;
+ }
+.check_b {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 12;
+ }
